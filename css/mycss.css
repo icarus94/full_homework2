@@ -1,0 +1,35 @@
+table, th, td {
+	padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+table{
+	
+    margin-top: 15px;
+    width: 80%;
+}
+
+#firstForm{
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: lightgray;
+}
+#secondForm{
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+#thirdForm{
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: darkgray;
+}
+input{
+	padding: 1px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}

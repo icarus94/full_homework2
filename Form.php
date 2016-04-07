@@ -1,6 +1,7 @@
 <?php
     include 'inputTextField.php';
     include 'dropDownMenu.php';
+    include 'Table.php';
 class Form
 {
     private $inputTextField;

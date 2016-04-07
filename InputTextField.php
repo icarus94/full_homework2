@@ -11,7 +11,7 @@ class InputTextField
     private $description;
     private $name;
 
-    public function __construct($des, $nam,$mem)
+    public function __construct($des, $nam)
     {
         $this->description=$des;
         $this->name=$nam;
@@ -29,7 +29,7 @@ class InputTextField
         if($this->name!=null and $this->description!=null)
         {
             $default=$this->checkSession();
-            $a=$this->description.":<br><input type=\"text\" name=".$this->name." value=".$default."><br>";
+            $a=$this->description.":<br><input type='text' name='$this->name' value='$default' required><br>";
         }
         return $a;
     }
